@@ -1,0 +1,36 @@
+.navbarContainer {
+    color: #EEEEEE;
+    width: var(--var-size);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navTitle:hover {
+    cursor: pointer;
+}
+
+.theme {
+    width: 13px;
+    height: 13px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+.sunBackgrong {
+    background-color: #FBD38D;
+}
+
+.moonBackgrong {
+    background-color: #805AD5;
+}
+
+.theme:hover{
+    cursor: pointer;
+}

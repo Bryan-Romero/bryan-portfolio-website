@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;700&display=swap');
+
+@media (min-width: 769px) {
+  :root {
+    --var-size: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --var-size: 80%;
+  }
+}
+
+@media (max-width: 450px) {
+  :root {
+    --var-size: 90%;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'M PLUS Rounded 1c';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
