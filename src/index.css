@@ -2,19 +2,19 @@
 
 @media (min-width: 769px) {
   :root {
-    --var-size: 50%;
+    --var-size: 700px;
   }
 }
 
 @media (max-width: 768px) {
   :root {
-    --var-size: 80%;
+    --var-size: 70%;
   }
 }
 
 @media (max-width: 450px) {
   :root {
-    --var-size: 90%;
+    --var-size: 80%;
   }
 }
 
@@ -23,6 +23,10 @@ body {
   font-family: 'M PLUS Rounded 1c';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -moz-user-select: none; 
+  -webkit-user-select: none; 
+  -ms-user-select:none; 
+  user-select:none;
 }
 
 code {

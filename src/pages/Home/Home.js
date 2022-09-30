@@ -2,16 +2,15 @@ import React from "react";
 import GitHubIcon from "../../components/GitHubIcon/GitHubIcon";
 import InstagramIcon from "../../components/InstagramIcon/InstagramIcon";
 import LinkedinIcon from "../../components/LinkedinIcon/LinkedinIcon";
-import Navbar from "../../components/Navbar/Navbar";
 import TwiterIcon from "../../components/TwiterIcon/TwiterIcon";
 import "./Home.css"
 import imgProfile from "./images/imgProfile.png"
 import pngegg from "./images/pngegg.png"
+import { Link } from "wouter"
 
 const Home = () => {
     return (
         <div className="home">
-            <Navbar />
             <div className="mainHome">
                 <div className="firstSection">
                     <img className="imgBackgrond" src={pngegg} alt="imgBackgrond" />
@@ -29,7 +28,9 @@ const Home = () => {
                     <p className="descriptionWork">Magna ea dolore in ut ex ea mollit et proident elit. Aute mollit enim anim anim est. Quis ipsum veniam dolor reprehenderit mollit deserunt officia mollit cupidatat. Dolor magna cupidatat tempor cillum ad sint esse enim cupidatat. In laborum ipsum quis deserunt dolor culpa cupidatat eiusmod amet id sunt cupidatat reprehenderit fugiat.</p>
                 </div>
                 <div className="portfolioSection">
-                    <p className="buttonPortfolio" href="/">Mi portafolio &gt;</p>
+                    <Link to="/proyects">
+                        <p className="buttonPortfolio" href="/">Mi portafolio &gt;</p>
+                    </Link>
                 </div>
                 <div className="biographySection">
                     <h3 className="sectionTitle">Biografia</h3>
@@ -45,9 +46,9 @@ const Home = () => {
                         <p className="year">2022</p>
                         <p className="descriptionYear">Labore deserunt do non ut eiusmod dolore exercitation voluptate eiusmod nulla. Labore deserunt do non ut eiusmod dolore exercitation voluptate eiusmod nulla.</p>
                     </div>
-                    <div>
+                    <div className="iLoveSection">
                         <p className="sectionTitle year">Me guta ♥</p>
-                        <p>Labore deserunt do non ut eiusmod dolore exercitation voluptate eiusmod nulla. Labore deserunt do non ut eiusmod dolore exercitation voluptate eiusmod nulla.</p>
+                        <p className="iLoveDescription">Labore deserunt do non ut eiusmod dolore exercitation voluptate eiusmod nulla. Labore deserunt do non ut eiusmod dolore exercitation voluptate eiusmod nulla.</p>
                     </div>
                 </div>
                 <div className="socialSection">

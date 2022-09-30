@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #222222;
-    color: #EEEEEE;
+    transform: translate(0px,50px);
 }
 
 .mainHome {
@@ -20,16 +19,20 @@
 .imgBackgrond {
     width: 100%;
     height: 100%;
-    filter: brightness(50%);
+}
+#dark .imgBackgrond {
+    filter: brightness(65%);
+}
+#light .imgBackgrond {
+    filter: brightness(100%);
 }
 
 .firstText {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.36);
     padding: 15px;
     border-radius: 20px;
     font-family: 'M PLUS Rounded 1c';
-    font-weight: bolder;
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
     margin: 0;
     transform: translate(0, -30px);
@@ -37,6 +40,7 @@
 
 .profileSection{
     display: flex;
+    gap: 40px;
 }
 
 .name {
@@ -61,8 +65,16 @@
     font-size: 22px;
 }
 
+#dark .sectionTitle {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+}
+#light .sectionTitle {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
 .descriptionWork {
     text-indent: 30px;
+    text-align: justify;
 }
 
 .portfolioSection {
@@ -72,7 +84,7 @@
 }
 
 .buttonPortfolio {
-    background-color: #00ADB5;
+    background-color: #81e6d9;
     padding: 10px;
     color: black;
     font-weight: bolder;
@@ -94,6 +106,15 @@
 
 .year{
     font-weight: bolder;
+}
+
+.descriptionYear {
+    text-align: justify;
+}
+
+.iLoveDescription {
+    text-indent: 30px;
+    text-align: justify;
 }
 
 .socialSection {
@@ -126,21 +147,25 @@
     margin: 0;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1266px) {
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1265px) {
     .imgProfile{
         margin-left: auto;
         margin-right: auto;
     }
-    .profileContainer{
+    .profileSection{
         flex-direction: column;
     }
 }
 
 @media (max-width: 450px) {
-    .profileContainer{
+    .imgProfile{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .profileSection{
         flex-direction: column;
     }
 }
