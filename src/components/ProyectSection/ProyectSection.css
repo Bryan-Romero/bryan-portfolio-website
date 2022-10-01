@@ -1,0 +1,31 @@
+.proyectSectionC {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+#dark .proyectSectionC {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+#light .proyectSectionC {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    width: fit-content;
+}
+#dark .title {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+}
+#light .title {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.proyects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: auto;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+}
