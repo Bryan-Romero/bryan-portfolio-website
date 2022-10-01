@@ -1,8 +1,8 @@
 .proyectContainer {
     display: flex;
     flex-direction: column;
-    max-width: 200px;
-    gap: 10px;
+    width: 1fr;
+    gap: 5px;
     cursor: pointer;
     padding: 10px;
     border-radius: 10px;
@@ -25,5 +25,13 @@
 .nameProyect, .littleDescription {
     margin: 0;
     text-align: center;
+}
+
+.littleDescription{
+    font-size: 14px;
+}
+
+.nameProyect::after {
+    content: convert(var(--gridList-column) string);
 }
 

@@ -12,11 +12,6 @@
   }
 }
 
-@media (max-width: 450px) {
-  :root {
-    --var-size: 80%;
-  }
-}
 
 body {
   margin: 0;
