@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar"
 import Proyects from "./pages/Proyects/Proyects"
 import Footer from './components/Footer/Footer';
 import React, { createContext, useState } from 'react';
+import pngegg from "./images/pngegg.png"
 
 export const ThemeContext = createContext(null)
 
@@ -20,18 +21,21 @@ function App() {
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className="App" id={theme}>
         <Navbar />
-        <Route 
-          path="/"
-          component={Home}
-        />
-        <Route 
-          path='/404'
-          component={() => <h1>Error 404 :( <Link to='/'>home</Link></h1>}
-        />
-        <Route 
-          path='/proyects'
-          component={Proyects}
-        />
+        <div className="itemsContainer">
+          <img className='imgBackgrond' src={pngegg} alt='imgBackgrond'/>
+          <Route 
+            path="/"
+            component={Home}
+          />
+          <Route 
+            path='/404'
+            component={() => <h1>Error 404 :( <Link to='/'>home</Link></h1>}
+          />
+          <Route 
+            path='/proyects'
+            component={Proyects}
+          />
+        </div>
         <Footer />
       </div>
     </ThemeContext.Provider>

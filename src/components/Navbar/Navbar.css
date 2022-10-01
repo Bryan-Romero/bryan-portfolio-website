@@ -4,11 +4,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: fixed;
-    z-index: 1;
-    align-items: center;
     justify-content: center;
     backdrop-filter: blur(10px);
+    z-index: 1;
+    position: fixed;
 }
 #dark .navbarContainer {
     background-color: rgba(34, 34, 34, 0.5);
@@ -25,6 +24,7 @@
     width: 900px;
     align-items: center;
     justify-content: center;
+    padding: 0 20px;
 }
 
 .navTitle:hover {
@@ -41,6 +41,7 @@
     padding: 8px;
     border-radius: 5px;
     margin-left: auto;
+    cursor: pointer;
 }
 
 .sunBackgrong {
@@ -49,8 +50,4 @@
 
 .moonBackgrong {
     background-color: #805AD5;
-}
-
-.theme:hover{
-    cursor: pointer;
 }

@@ -1,25 +1,14 @@
 .home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transform: translate(0px,50px);
-}
-
-.mainHome {
-    width: var(--var-size);
-    padding-bottom: 50px;
+    transform: translate(0, -30px);
 }
 
 .firstSection {
     display: block;
     width: 100%;
     height: calc(100% - 30px);
+    margin-bottom: 50px;
 }
 
-.imgBackgrond {
-    width: 100%;
-    height: 100%;
-}
 #dark .imgBackgrond {
     filter: brightness(65%);
 }
@@ -35,7 +24,6 @@
     font-size: 22px;
     text-align: center;
     margin: 0;
-    transform: translate(0, -30px);
 }
 
 .profileSection{
@@ -43,11 +31,7 @@
     gap: 40px;
 }
 
-.name {
-    margin: 0;
-}
-
-.profileSection div p {
+.name, .profileSection div p, .socialMediaTitle {
     margin: 0;
 }
 
@@ -89,14 +73,11 @@
     color: black;
     font-weight: bolder;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .buttonPortfolio:hover {
     filter: brightness(70%);
-}
-
-.buttonPortfolio:hover {
-    cursor: pointer;
 }
 
 .dateContainer {
@@ -130,10 +111,10 @@
     padding: 5px 10px;
     border-radius: 6px;
     gap: 7px;
+    cursor: pointer;
 }
 
 .socialMedia:hover {
-    cursor: pointer;
     background-color: rgba(0, 173, 181, 0.2);
 }
 
@@ -141,10 +122,6 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-.socialMediaTitle {
-    margin: 0;
 }
 
 @media (min-width: 1266px) {

@@ -1,0 +1,29 @@
+.proyectContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    gap: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#dark .proyectContainer:hover {
+    background-color: rgba(255, 255, 255, .05);
+}
+
+#light .proyectContainer:hover {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.imgProyect {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.nameProyect, .littleDescription {
+    margin: 0;
+    text-align: center;
+}
+
