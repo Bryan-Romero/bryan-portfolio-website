@@ -1,46 +1,11 @@
+* {
+    margin: 0;
+}
 .home {
     transform: translate(0, -30px);
-}
-
-.firstSection {
-    display: block;
-    width: 100%;
-    height: calc(100% - 30px);
-    margin-bottom: 50px;
-}
-
-#dark .imgBackgrond {
-    filter: brightness(65%);
-}
-#light .imgBackgrond {
-    filter: brightness(100%);
-}
-
-.firstText {
-    background-color: rgba(255, 255, 255, 0.36);
-    padding: 15px;
-    border-radius: 20px;
-    font-family: 'M PLUS Rounded 1c';
-    font-size: 22px;
-    text-align: center;
-    margin: 0;
-}
-
-.profileSection{
     display: flex;
-    gap: 40px;
-}
-
-.name, .profileSection div p, .socialMediaTitle {
-    margin: 0;
-}
-
-.imgProfile{
-    width: 120px;
-    height: 120px;
-    margin-left: auto;
-    border-radius: 50%;
-    border: 2px solid white;
+    flex-direction: column;
+    gap: 60px;
 }
 
 .sectionTitle {
@@ -53,95 +18,4 @@
 }
 #light .sectionTitle {
     border-bottom: 3px solid rgba(0, 0, 0, 0.2);
-}
-
-.descriptionWork {
-    text-indent: 30px;
-    text-align: justify;
-}
-
-.portfolioSection {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.buttonPortfolio {
-    background-color: #81e6d9;
-    padding: 10px;
-    color: black;
-    font-weight: bolder;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.buttonPortfolio:hover {
-    filter: brightness(70%);
-}
-
-.dateContainer {
-    display: flex;
-    gap: 20px;
-}
-
-.year{
-    font-weight: bolder;
-}
-
-.descriptionYear {
-    text-align: justify;
-}
-
-.iLoveDescription {
-    text-indent: 30px;
-    text-align: justify;
-}
-
-.socialSection {
-    display: flex;
-    flex-direction: column;
-}
-
-.socialMedia {
-    display: flex;
-    flex-direction: row;
-    width: fit-content;
-    align-items: center;
-    padding: 5px 10px;
-    border-radius: 6px;
-    gap: 7px;
-    cursor: pointer;
-}
-
-.socialMedia:hover {
-    background-color: rgba(0, 173, 181, 0.2);
-}
-
-.socialMediaContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-@media (min-width: 1266px) {
-}
-
-@media (max-width: 1265px) {
-    .imgProfile{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .profileSection{
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 450px) {
-    .imgProfile{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .profileSection{
-        flex-direction: column;
-    }
 }

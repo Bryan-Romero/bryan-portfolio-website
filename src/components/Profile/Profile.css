@@ -1,0 +1,57 @@
+.profileSection {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.firstText {
+    background-color: rgba(255, 255, 255, 0.36);
+    padding: 15px;
+    border-radius: 20px;
+    font-family: 'M PLUS Rounded 1c';
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+}
+
+.name-desccription-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.imgProfile{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+@media (min-width: 1266px) {
+    .imgProfile{
+        margin-left: auto;
+    }
+    .name-desccription-container{
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 626px) {
+    .imgProfile{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .name-desccription-container{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 450px) {
+    .imgProfile{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .name-desccription-container{
+        flex-direction: column;
+    }
+}

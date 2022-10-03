@@ -1,0 +1,12 @@
+.dateContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.year{
+    font-weight: bolder;
+}
+
+.descriptionYear {
+    text-align: justify;
+}

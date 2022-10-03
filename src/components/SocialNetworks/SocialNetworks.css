@@ -1,0 +1,27 @@
+.socialSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 6px;
+    gap: 7px;
+    cursor: pointer;
+    text-decoration: none;
+    color: unset;
+}
+
+.socialMedia:hover {
+    background-color: rgba(0, 173, 181, 0.2);
+}
+
+.socialMediaContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
