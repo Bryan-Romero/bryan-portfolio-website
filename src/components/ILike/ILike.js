@@ -5,7 +5,7 @@ const ILike = () => {
     return(
         <div className="iLikeSection">
             <h3 className="sectionTitle">Me guta ♥</h3>
-            <p className="iLikeDescription">El Aprendizaje autónomo, ejercicio, deporte, escuchar música, los video juegos, convivir con mi familia y amigos.</p>
+            <p className="iLikeDescription">El Aprendizaje autónomo, hacer ejercicio, el deporte, escuchar música, los video juegos, convivir con mi familia y amigos.</p>
         </div>
     )
 }

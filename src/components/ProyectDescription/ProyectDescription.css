@@ -1,0 +1,52 @@
+.proyectDescription {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.descriptionProyectSection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.descriptionProyect {
+    text-align: justify;
+}
+
+.infoProyectName {
+    display: inline;
+    margin-right: 15px;
+    padding: 0 7px;
+    border-radius: 0.125rem;
+    text-transform: uppercase;
+}
+#dark .infoProyectName {
+    background: rgba(198, 246, 213, 0.1);
+    color: rgb(198, 246, 213);
+}
+#light .infoProyectName {
+    background: rgb(198, 246, 213);
+    color: rgb(34, 84, 61);
+}
+
+.infoProyectDesc {
+    display: inline;
+}
+
+.infoProyect a {
+    color: rgb(61, 122, 237);
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    text-decoration: none;
+    word-break: break-all;
+}
+.infoProyect a:hover  {
+    border-bottom: 2px solid rgb(61, 122, 237);
+}
+
+.imgsProyect {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

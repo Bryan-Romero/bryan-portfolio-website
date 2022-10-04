@@ -9,7 +9,7 @@ const Profile = () => {
             <div className="name-desccription-container">
                 <div>
                     <h1 className="name">Bryan Hassiel Romero Bautista</h1>
-                    <p>Creador de aplicaciones web frontend y backend</p>
+                    <p>Creador de aplicaciones web frontend y apis backend</p>
                 </div>
                 <img className="imgProfile" src={imgProfile} alt="imgProfile" />
             </div>

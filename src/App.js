@@ -6,6 +6,7 @@ import Proyects from "./pages/Proyects/Proyects"
 import Footer from './components/Footer/Footer';
 import React, { createContext, useState } from 'react';
 import pngegg from "./images/pngegg.png"
+import ProyectDetail from './pages/ProyectDetail/ProyectDetail';
 
 export const ThemeContext = createContext(null)
 
@@ -34,6 +35,10 @@ function App() {
           <Route 
             path='/proyects'
             component={Proyects}
+          />
+          <Route 
+            path='/proyect-detail/:proyectName'
+            component={ProyectDetail}
           />
         </div>
         <Footer />

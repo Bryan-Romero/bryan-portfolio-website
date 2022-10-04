@@ -11,15 +11,15 @@ const Biography = () => {
             </div>
             <div className="dateContainer">
                 <p className="year">2016</p>
-                <p className="descriptionYear">Finalizo la preparatoria en el colegio de estudios científicos y tecnológicos del estado Nayarit (cecyten) como técnico en programación.</p>
+                <p className="descriptionYear">Finalizo la preparatoria en el Colegio de Estudios Científicos y Tecnológicos del estado Nayarit (cecyten) como técnico en programación.</p>
             </div>
             <div className="dateContainer">
                 <p className="year">2022</p>
-                <p className="descriptionYear">Completo la universidad en el instituto tecnológico de Tepic (TEC) como ingeniero en sistemas computacionales.</p>
+                <p className="descriptionYear">Completo la universidad en el Instituto Tecnológico de Tepic (TEC) como ingeniero en sistemas computacionales.</p>
             </div>
             <div className="dateContainer">
                 <p className="year">2022 a la actualidad</p>
-                <p className="descriptionYear">Trabaja para le empresa EVRST sigue aprendiendo.</p>
+                <p className="descriptionYear">Trabaja para le empresa EVERST y sigue aprendiendo por su cuenta.</p>
             </div>
         </div>
     )

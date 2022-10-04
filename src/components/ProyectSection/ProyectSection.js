@@ -1,9 +1,9 @@
 import React from "react";
 import "./ProyectSection.css"
 
-const ProyectSection = ({ title, children }) => {
+const ProyectSection = ({ title, borderBottom, children }) => {
     return(
-        <div className="proyectSectionC">
+        <div className={`proyectSectionC ${borderBottom && 'borderBottom'}`}>
             <h3 className='title'>{title}</h3>
             <div className="proyects">
                 {children}

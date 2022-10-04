@@ -4,15 +4,16 @@
     flex-direction: column;
     padding-bottom: 20px;
 }
-#dark .proyectSectionC {
+#dark .borderBottom {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-#light .proyectSectionC {
+#light .borderBottom {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .title {
     width: fit-content;
+    margin-bottom: 20px;
 }
 #dark .title {
     border-bottom: 3px solid rgba(255, 255, 255, 0.2);
@@ -23,20 +24,10 @@
 
 .proyects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(var(--gridList-column), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 50px;
   grid-auto-rows: auto;
   align-items: center;
   justify-items: center;
   width: 100%;
-}
-@media (min-width: 769px) {
-    :root {
-        --gridList-column: 200px;
-    }
-}
-@media (max-width: 768px) {
-    :root {
-        --gridList-column: 150px;
-    }
 }

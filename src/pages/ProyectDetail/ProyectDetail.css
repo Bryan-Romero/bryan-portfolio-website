@@ -1,0 +1,20 @@
+.proyectDetailC {
+    width: 100%;
+}
+
+.backToProyects {
+    color: rgb(61, 122, 237);
+    cursor: pointer;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+.backToProyects:hover {
+    border-bottom: 2px solid rgb(61, 122, 237);
+}
+
+.backAndProyectName {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 40px;
+}

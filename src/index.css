@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;700&display=swap');
 
-@media (min-width: 769px) {
-  :root {
-    --var-size: 700px;
-  }
-}
-
-@media (max-width: 768px) {
-  :root {
-    --var-size: 70%;
-  }
-}
-
-
 body {
   margin: 0;
   font-family: 'M PLUS Rounded 1c';

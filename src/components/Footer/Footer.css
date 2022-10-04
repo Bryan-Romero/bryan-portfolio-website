@@ -1,6 +1,6 @@
 .footerContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -12,6 +12,8 @@
     text-align: center;
     margin: 0;
     opacity: 0.4;
+    display: flex;
+    align-items: center;
 }
 
 #dark .footerContainer {
@@ -21,4 +23,23 @@
 #light .footerContainer {
     background-color: rgba(255, 255, 255, 0.25);
     color: #222222;
+}
+
+.sourceCodeGH {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+    text-decoration: none;
+    color: unset;
+    font-size: 16px;
+    opacity: 0.4;
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+}
+#dark .sourceCodeGH:hover {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+}
+#light .sourceCodeGH:hover {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
 }
