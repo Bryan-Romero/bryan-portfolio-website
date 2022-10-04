@@ -2,6 +2,17 @@
     width: 100%;
 }
 
+.backAndProyectName {
+    display: inline-block;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.backAndProyectName * {
+    display: inline;
+    padding-right: 10px;
+}
+
 .backToProyects {
     color: rgb(61, 122, 237);
     cursor: pointer;
@@ -10,11 +21,4 @@
 
 .backToProyects:hover {
     border-bottom: 2px solid rgb(61, 122, 237);
-}
-
-.backAndProyectName {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-bottom: 40px;
 }

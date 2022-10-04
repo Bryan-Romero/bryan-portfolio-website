@@ -30,7 +30,7 @@ const ProyectDescription = ({ description, website, platform, slack, github, ima
             <div className="imgsProyect">
                 {
                     images.map(singleImg => 
-                        <img className="imgProyect" src={singleImg} alt={`${singleImg}`} />
+                        <img className="imgProyect" src={singleImg} alt={`${singleImg}`} key={singleImg}/>
                     )
                 }
             </div>

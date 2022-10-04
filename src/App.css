@@ -23,7 +23,15 @@
     align-items: center;
 }
 
+.imgBackgrondContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
 .imgBackgrond {
-    width: 130%;
-    height: 130%;
+    width: 140%;
+    height: 140%;
 }

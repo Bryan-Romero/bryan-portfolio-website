@@ -1,6 +1,6 @@
 import React from "react";
 import "./Profile.css"
-import imgProfile from "../../images/imgProfile.png"
+import imgProfile from "../../images/imgProfile.jpg"
 
 const Profile = () => {
     return(
@@ -9,9 +9,11 @@ const Profile = () => {
             <div className="name-desccription-container">
                 <div>
                     <h1 className="name">Bryan Hassiel Romero Bautista</h1>
-                    <p>Creador de aplicaciones web frontend y apis backend</p>
+                    <p>Creador de aplicaciones web y apis fullstack jr</p>
                 </div>
-                <img className="imgProfile" src={imgProfile} alt="imgProfile" />
+                <picture className="imgProfileContainer">
+                    <img className="imgProfile" src={imgProfile} alt="imgProfile" />
+                </picture>
             </div>
         </div >
     )

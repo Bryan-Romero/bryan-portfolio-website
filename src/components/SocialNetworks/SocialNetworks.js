@@ -22,7 +22,7 @@ const SocialNetworks = () => {
                     <TwiterIcon/>
                     <p className="socialMediaTitle">Twiter</p>
                 </a>
-                <a className="socialMedia" href="https://www.linkedin.com/in/bryan-romero-305484229/" target="_blank" rel="noopener noreferrer">
+                <a className="socialMedia" href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BUPaH6978SXuXCphEeDykZQ%3D%3D" target="_blank" rel="noopener noreferrer">
                     <LinkedinIcon/>
                     <p className="socialMediaTitle">Linkedin</p>
                 </a>

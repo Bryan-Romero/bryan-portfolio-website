@@ -23,7 +23,9 @@ function App() {
       <div className="App" id={theme}>
         <Navbar />
         <div className="itemsContainer">
-          <img className='imgBackgrond' src={pngegg} alt='imgBackgrond'/>
+          <picture className='imgBackgrondContainer'>
+            <img className='imgBackgrond' src={pngegg} alt='imgBackgrond'/>
+          </picture>
           <Route 
             path="/"
             component={Home}

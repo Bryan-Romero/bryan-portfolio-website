@@ -3,7 +3,7 @@ import React from "react"
 export default function SunIcon() {
     return (
         <svg viewBox="0 0 24 24" aria-hidden="true">
-            <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" stroke="black">
+            <g strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" fill="none" stroke="black">
                 <circle cx="12" cy="12" r="5"></circle>
                 <path d="M12 1v2"></path>
                 <path d="M12 21v2"></path>
