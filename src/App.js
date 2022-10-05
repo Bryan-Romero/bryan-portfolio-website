@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './pages/Home/Home';
-import { Route, Link } from "wouter"
+import { Route, Link, useLocation } from "wouter"
 import Navbar from "./components/Navbar/Navbar"
 import Proyects from "./pages/Proyects/Proyects"
 import Footer from './components/Footer/Footer';
@@ -13,6 +13,7 @@ export const ThemeContext = createContext(null)
 function App() {
 
   const [theme, setTheme] = useState('dark')
+  const location = useLocation()
 
   const toggleTheme = () => {
     setTheme((curr) => (curr === 'dark' ? 'light' : 'dark'))
@@ -25,6 +26,9 @@ function App() {
         <div className="itemsContainer">
           <picture className='imgBackgrondContainer'>
             <img className='imgBackgrond' src={pngegg} alt='imgBackgrond'/>
+            {
+              location[0] === '/' && <p className="firstText">Hola, soy un desarrollador de aplicaciones web en México!</p>
+            }
           </picture>
           <Route 
             path="/"

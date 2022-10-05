@@ -9,7 +9,7 @@ import ProyectDescription from "../../components/ProyectDescription/ProyectDescr
 
 const ProyectDetail = ({ params }) => {
     return(
-        <div className="proyectDetailC">
+        <div className="proyectDetailContainer">
             <div className="backAndProyectName">
                 <Link to="/proyects">
                     <p className="backToProyects">Proyectos</p>
@@ -25,7 +25,7 @@ const ProyectDetail = ({ params }) => {
                     website={'https://app-gifs-react.vercel.app/'}
                     platform={'Windows, macOS, Linux, iOS, Android'}
                     slack={'React, JavaScript, HTML, CSS'}
-                    github={'https://github.com/BryanRomeroEverst/app-gifs-react.git'}
+                    github={'https://github.com/Bryan-Romero/app-gifs-react'}
                 />
             }
             

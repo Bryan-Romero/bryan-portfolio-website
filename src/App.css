@@ -17,14 +17,16 @@
 .itemsContainer {
     max-width: 550px;
     padding: 0 20px;
-    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .imgBackgrondContainer {
     display: flex;
+    flex-direction: column;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -34,4 +36,20 @@
 .imgBackgrond {
     width: 140%;
     height: 140%;
+}
+
+.firstText {
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    transform: translate(0, -30px);
+    z-index: 1;
+}
+#dark .firstText {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+#light .firstText {
+    background-color: rgba(255, 255, 255, 0.36);
 }

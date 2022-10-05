@@ -6,6 +6,8 @@
     align-items: center;
     justify-content: center;
     backdrop-filter: blur(10px);
+    z-index: 10;
+    position: fixed;
 }
 #dark .navbarContainer {
     background-color: rgba(34, 34, 34, 0.5);

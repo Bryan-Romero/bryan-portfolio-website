@@ -10,7 +10,7 @@ const SocialNetworks = () => {
         <div className="socialSection">
             <h3 className="sectionTitle">Presencia en linea</h3>
             <div className="socialMediaContainer">
-                <a className="socialMedia" href="https://github.com/BryanRomeroEverst" target="_blank" rel="noopener noreferrer">
+                <a className="socialMedia" href="https://github.com/Bryan-Romero" target="_blank" rel="noopener noreferrer">
                     <GitHubIcon/>
                     <p className="socialMediaTitle">GitHub</p>
                 </a>
@@ -18,7 +18,7 @@ const SocialNetworks = () => {
                     <InstagramIcon/>
                     <p className="socialMediaTitle">Instagram</p>
                 </a>
-                <a className="socialMedia" href="/" target="_blank" rel="noopener noreferrer">
+                <a className="socialMedia" href="https://twitter.com/bryan_hrb" target="_blank" rel="noopener noreferrer">
                     <TwiterIcon/>
                     <p className="socialMediaTitle">Twiter</p>
                 </a>
