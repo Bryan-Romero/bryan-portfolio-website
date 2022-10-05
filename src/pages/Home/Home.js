@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css"
 import Biography from "../../components/Biography/Biography";
-import Work from "../../components/Work/Work";
+import Description from "../../components/Description/Description";
 import Profile from "../../components/Profile/Profile";
 import Portfolio from "../../components/Portfolio/Portfolio";
 import SocialNetworks from "../../components/SocialNetworks/SocialNetworks";
@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div className="home">
             <Profile />
-            <Work />
+            <Description />
             <Portfolio />
             <Biography />
             <ILike />

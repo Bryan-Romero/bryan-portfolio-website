@@ -25,7 +25,6 @@ const ProyectDescription = ({ description, website, platform, slack, github, ima
                         <a className="infoProyectDesc" href={`${github}`} target="_blank" rel="noopener noreferrer">{github}</a>
                     </div>
                 }
-                
             </div>
             <div className="imgsProyect">
                 {

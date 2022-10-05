@@ -28,7 +28,6 @@ const ProyectDetail = ({ params }) => {
                     github={'https://github.com/Bryan-Romero/app-gifs-react'}
                 />
             }
-            
         </div>
     )
 }
