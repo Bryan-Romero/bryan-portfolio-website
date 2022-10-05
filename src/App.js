@@ -4,7 +4,7 @@ import { Route, Link, useLocation } from "wouter"
 import Navbar from "./components/Navbar/Navbar"
 import Proyects from "./pages/Proyects/Proyects"
 import Footer from './components/Footer/Footer';
-import React, { createContext, useState } from 'react';
+import React, { createContext, useEffect, useState } from 'react';
 import pngegg from "./images/pngegg.png"
 import ProyectDetail from './pages/ProyectDetail/ProyectDetail';
 
@@ -18,6 +18,10 @@ function App() {
   const toggleTheme = () => {
     setTheme((curr) => (curr === 'dark' ? 'light' : 'dark'))
   }
+
+  useEffect(() => {
+      window.scrollTo(0, 0)
+  }, [location])
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
