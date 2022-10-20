@@ -23,3 +23,13 @@
 .backToProyects:hover {
     border-bottom: 2px solid rgb(61, 122, 237);
 }
+
+.link {
+    color: rgb(61, 122, 237);
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    text-decoration: none;
+    word-break: break-all;
+}
+.link:hover  {
+    border-bottom: 2px solid rgb(61, 122, 237);
+}

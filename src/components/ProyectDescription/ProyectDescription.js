@@ -5,7 +5,7 @@ const ProyectDescription = ({ description, website, platform, slack, github, ima
     return(
         <div className="proyectDescription">
             <div className="descriptionProyectSection">
-                <p className="descriptionProyect">{description}</p>
+                <p className="descriptionProyect">{description()}</p>
                 <div className="infoProyect">
                     <h4 className="infoProyectName">Sitio web</h4>
                     <a className="infoProyectDesc" href={`${website}`} target="_blank" rel="noopener noreferrer">{website}</a>
