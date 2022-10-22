@@ -8,13 +8,15 @@ import pageGifs4 from "../../images/pageGifs4.png"
 import pageGifs5 from "../../images/pageGifs5.png"
 import pageGifs6 from "../../images/pageGifs6.png"
 import pageGifs7 from "../../images/pageGifs7.png"
+import pageGifs8 from "../../images/pageGifs8.png"
+import pageGifs9 from "../../images/pageGifs9.png"
 import ProyectDescription from "../../components/ProyectDescription/ProyectDescription";
 
 const ProyectDetail = ({ params }) => {
 
     const descriptionAplicacionGIFs = () => {
         return (<>
-            <p>Aplicación web para búsqueda de gifs, en la cual puedes crear tu cuenta y guardar tus gifs favoritos, recomienda los trending de búsqueda, mantiene en el inicio de la app la última búsqueda además de ver el detalle de cada gif dando clic sobre él, está app cuenta con los recursos de <a className="link" href="https://developers.giphy.com/" target="_blank" rel="noopener noreferrer">GIPHY.</a></p>
+            <p>Aplicación web para búsqueda de gifs, en esta aplicación puedes crear tu cuenta para guardar tus gifs favoritos y además de poder verlos en el apartado favoritos, de igual manera podrás eliminar de tus gifs favoritos algún gif, al dar clic en algún gif te redirige a una ventana para ver los detalles del gif seleccionado, la aplicación recomienda los trending de búsqueda del momento, mantiene en la aplicación la última búsqueda realizada. Está aplicación implementa la api de <a className="link" href="https://developers.giphy.com/" target="_blank" rel="noopener noreferrer">GIPHY.</a></p>
         </>)
     }
 
@@ -31,8 +33,8 @@ const ProyectDetail = ({ params }) => {
                 (decodeURI(params.proyectName) === 'Aplicacion GIFs') && 
                 <ProyectDescription
                     description={descriptionAplicacionGIFs} 
-                    images={[pageGifs1, pageGifs2, pageGifs3, pageGifs4, pageGifs5, pageGifs6, pageGifs7]}
-                    website={'https://app-gifs-react.vercel.app/'}
+                    images={[pageGifs1, pageGifs2, pageGifs3, pageGifs4, pageGifs5, pageGifs6, pageGifs7, pageGifs8, pageGifs9]}
+                    website={'https://gifty-react.vercel.app/'}
                     platform={'Windows, macOS, Linux, iOS, Android'}
                     slack={'React, JavaScript, HTML, CSS'}
                     github={'https://github.com/Bryan-Romero/app-gifs-react'}
